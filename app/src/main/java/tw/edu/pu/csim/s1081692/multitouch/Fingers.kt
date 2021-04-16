@@ -65,6 +65,7 @@ class Fingers(context: Context) : View(context),ScaleGestureDetector.OnScaleGest
     }
 
     override fun onScaleEnd(detector: ScaleGestureDetector?) {
+
     }
 
 
