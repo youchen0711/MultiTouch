@@ -67,6 +67,7 @@ class Fingers(context: Context) : View(context),ScaleGestureDetector.OnScaleGest
     override fun onScaleEnd(detector: ScaleGestureDetector?) {
     }
 
+
     override fun onScale(detector: ScaleGestureDetector?): Boolean {
         factor += sg.getScaleFactor()-1
         return true
